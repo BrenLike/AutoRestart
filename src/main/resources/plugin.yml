@@ -1,0 +1,12 @@
+name: AutoRestart25
+version: ${project.version}
+main: ru.brenlike.autorestart.Main
+authors: [25BrenLike]
+
+commands:
+  autorestart:
+    aliases: [ar]
+
+permissions:
+  autorestart.command.autorestart:
+    default: op
